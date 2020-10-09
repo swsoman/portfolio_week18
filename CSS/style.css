@@ -1,0 +1,156 @@
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Righteous", cursive; */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  /* padding: 20px; */
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.titleMain {
+  color: #303030;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 10px auto;
+  width: 100%;
+}
+.nav-item {
+  width: 33%;
+}
+.subTitle {
+  color: #303030;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+header {
+  background-color: #cfe0c3;
+}
+.inlineBlock nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #303030;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  vertical-align: top;
+  align-items: center;
+}
+nav,
+nav ul {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul {
+  padding-left: 0;
+}
+nav li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blank {
+  height: 300px;
+}
+
+.heroImg {
+  color: #303030;
+  background-color: #cfe0c3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 650px;
+  padding: 25px;
+}
+.heroImg p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+/* .content {
+  width: 850px;
+  margin: 0 auto;
+} */
+
+footer {
+  background-color: #cfe0c3;
+  padding: 10px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContact {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.footerResume {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.footerEmail {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.footerEmailId {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footerWork {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.footerFulllList {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footerLogo {
+  width: 75px;
+  height: 75px;
+  align-self: center;
+}
+.footer-text {
+  display: flex;
+}
+
+.follow {
+  text-align: center;
+  margin-right: 75px;
+}
