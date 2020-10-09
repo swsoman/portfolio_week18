@@ -159,5 +159,35 @@ footer ul {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-.contact p {
-  
+
+.industrySkills {
+  background-color: #f7e6ea;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+}
+.skillList {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.skillTitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.industrySkills li {
+  padding: 10px;
+}
+
+.industrySkills ul {
+  padding-left: 0;
+}
+
+.order {
+  padding: 25px;
+}
