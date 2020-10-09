@@ -155,17 +155,20 @@ footer ul {
   margin-right: 75px;
 }
 .contact {
+  color: #303030;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
 }
 
 .industrySkills {
+  color: #303030;
   background-color: #f7e6ea;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .flexContainer {
   display: flex;
   justify-content: center;
