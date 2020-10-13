@@ -195,6 +195,7 @@ footer ul {
 }
 .projects {
   height: auto;
+  align-content: center;
   background-image: url(../Images/background_projects.jpg);
   padding-top: 50px;
   padding-bottom: 50px;
@@ -203,8 +204,9 @@ footer ul {
   text-align: center;
   background-color: #ffffff;
   padding: 5px;
-  height: 324px;
-  width: 324px;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
 }
 .titleProject {
   font-family: "Lato", sans-serif;
@@ -222,10 +224,28 @@ footer ul {
 }
 .flex_Container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .projectCardPhoto {
   /* height: 230px;
   width: 270px; */
   text-align: center;
+}
+
+/* Media Querys */
+@media only screen and (max-width: 600px) {
+  .flex_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    padding: 20px;
+  }
+
+  .projectCard {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+  }
 }
