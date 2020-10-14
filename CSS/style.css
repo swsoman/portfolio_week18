@@ -389,4 +389,18 @@ footer ul {
     font-size: 14px;
     font-weight: 400;
   }
+  .follow {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-text ul {
+    padding-left: 0;
+  }
 }
