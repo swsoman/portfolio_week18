@@ -201,7 +201,7 @@ footer ul {
 .projects {
   display: grid;
   height: auto;
-  align-items: center;
+  /* align-items: center; */
   background-image: url(../Images/background_projects.jpg);
   padding-top: 50px;
   padding-bottom: 50px;
@@ -210,6 +210,8 @@ footer ul {
 .Container_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 0 auto;
 }
 .projectCard1 {
   grid-column-start: 1;
@@ -275,10 +277,10 @@ footer ul {
 @media only screen and (max-width: 600px) {
   .Container_grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    align-items: center;
-    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: center;
+    margin: 0 auto;
   }
 
   .projectCard1 {
