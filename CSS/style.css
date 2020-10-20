@@ -199,13 +199,47 @@ footer ul {
   padding: 25px;
 }
 .projects {
+  display: grid;
   height: auto;
-  align-content: center;
+  align-items: center;
   background-image: url(../Images/background_projects.jpg);
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 0 auto;
 }
-.projectCard {
+.Container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projectCard1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+}
+.projectCard2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+}
+.projectCard3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
   text-align: center;
   background-color: #ffffff;
   padding: 5px;
@@ -227,13 +261,8 @@ footer ul {
   text-align: center;
   color: #303030;
 }
-.flex_Container {
-  display: flex;
-  justify-content: space-evenly;
-}
+
 .projectCardPhoto {
-  /* height: 230px;
-  width: 270px; */
   text-align: center;
 }
 .contentBold {
@@ -244,16 +273,39 @@ footer ul {
 
 /* Media Querys */
 @media only screen and (max-width: 600px) {
-  .flex_Container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    vertical-align: middle;
+  .Container_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     padding: 20px;
   }
 
-  .projectCard {
+  .projectCard1 {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+  }
+  .projectCard2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+  }
+  .projectCard3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
     text-align: center;
     background-color: #ffffff;
     padding: 5px;
